@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguine Shopping</title>
+</head>
+
+<body>
+    <header class="bg-yellow-100">
+
+        <nav>
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href=" " class="flex items-center">
+                    <img src="images/logo.png" class="h-8 mr-3" alt="Penguine Logo" />
+                </a>
+                <button data-collapse-toggle="navbar-default" type="button"
+                    class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                    <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:border-0">
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-900 rounded md:border-0 md:p-0 text-black "
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-900 rounded md:border-0 md:p-0 text-black">Product</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-900 rounded md:border-0 md:p-0 text-black ">About
+                                Us</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block py-2 pl-3 pr-4 text-gray-900 rounded md:border-0 md:p-0 text-black ">Contact
+                                Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="container md:flex items-center justify-around p-12 h-full">
+            <div class=" space-y-4 md:pl-48">
+                <h1 class="text-6xl font-bold"><span class="text-yellow-400">Be the Penguins</span>
+                    <br>
+                    <span> of
+                        Winter</span>
+                </h1>
+                <p class="w-2/3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae ullam sed reiciendis
+                    nulla corrupti magnam, laudantium tempore placeat mollitia quae in nobis, eveniet pariatur vel
+                    dolorem accusantium saepe odio labore?</p>
+                <button class="btn bg-red-300 px-8 py-4 rounded-lg bg-gradient-to-b from-green-200 to-green-500"><svg
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class=" inline w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                    </svg>
+                    Buy Now</button>
+            </div>
+            <div>
+                <img src="images/model.png" alt="">
+            </div>
+        </section>
+    </header>
+    <br>
+    <main>
+        <section class="container-fluid">
+            <h1 class="text-4xl pl-12 ">Women Jacket</h1>
+            <div class="md:grid grid-cols-3 gap-7 justify-items-center mt-6">
+                <div
+                    class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4">
+
+                    <a href="#">
+                        <img class="p-8 rounded-lg bg-gray-100" src="images/jacket-1.png" alt="product image" />
+                    </a>
+                    <div class="pb-5">
+                        <a href="#">
+                            <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Ladies
+                                Jacket
+                                1</h5>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequatur temporibus
+                            corporis, mollitia quidem rem laborum dolores doloribus vero. Doloribus molestiae
+                            necessitatibus ipsam eveniet veniam, reprehenderit nulla exercitationem error ratione.
+                        </p>
+                    </div>
+
+                    <div class="pb-5 flex items-center justify-between">
+                        <span class="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+                        <a href="#"
+                            class="text-white bg-blue-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Add
+                            to cart</a>
+                    </div>
+
+                </div>
+                <div
+                    class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4">
+                    <div>
+                        <a href="#">
+                            <img class="p-8 rounded-lg bg-gray-100" src="images/jacket-2.png" alt="product image" />
+                        </a>
+                        <div class="pb-5">
+                            <a href="#">
+                                <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Ladies
+                                    Jacket
+                                    2</h5>
+                            </a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequatur temporibus
+                                corporis, mollitia quidem rem laborum dolores doloribus vero.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class=" px-5 pb-5 flex items-center justify-between">
+                        <span class="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+                        <a href="#"
+                            class="text-white bg-blue-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Add
+                            to cart</a>
+                    </div>
+
+                </div>
+                <div
+                    class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4">
+                    <a href="#">
+                        <img class="p-8 rounded-lg bg-gray-100" src="images/jacket-3.png" alt="product image" />
+                    </a>
+                    <div class="pb-5">
+                        <a href="#">
+                            <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Ladies Jacket
+                                3</h5>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minus illum omnis, quis
+                            quibusdam vero culpa unde minima voluptatum est id soluta error consequatur ex quasi
+                            molestias iusto aut sint?</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+                            <a href="#"
+                                class="text-white bg-blue-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Add
+                                to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="container-fluid">
+            <h1 class="text-4xl pl-12 ">Men Jacket</h1>
+            <div class="md:grid grid-cols-3 gap-7 justify-items-center mt-6">
+                <div
+                    class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4">
+                    <div>
+                        <a href="#">
+                            <img class="p-8 rounded-lg bg-gray-100" src="images/jacket-4.png" alt="product image" />
+                        </a>
+                        <div class="px-5 pb-5">
+                            <a href="#">
+                                <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Ladies
+                                    Jacket
+                                    4</h5>
+                            </a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequatur temporibus
+                                corporis, mollitia quidem rem laborum dolores.
+                            </p>
+
+                        </div>
+                        <div class=" px-5 pb-5 flex items-center justify-between">
+                            <span class="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+                            <a href="#"
+                                class="text-white bg-blue-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Add
+                                to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4">
+                    <div>
+                        <a href="#">
+                            <img class="p-8 rounded-lg bg-gray-100" src="images/jacket-5.png" alt="product image" />
+                        </a>
+                        <div class="px-5 pb-5">
+                            <a href="#">
+                                <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Ladies
+                                    Jacket
+                                    5</h5>
+                            </a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequatur temporibus
+                                corporis, mollitia quidem rem laborum dolores doloribus vero.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class=" px-5 pb-5 flex items-center justify-between">
+                        <span class="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+                        <a href="#"
+                            class="text-white bg-blue-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Add
+                            to cart</a>
+                    </div>
+
+                </div>
+                <div
+                    class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 p-4">
+                    <a href="#">
+                        <img class="p-8 rounded-lg bg-gray-100" src="images/jacket-6.png" alt="product image" />
+                    </a>
+                    <div class="px-5 pb-5">
+                        <a href="#">
+                            <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Ladies Jacket
+                                6</h5>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minus illum omnis, quis
+                            quibusdam vero culpa unde minima voluptatum est id soluta error consequatur ex quasi
+                            molestias iusto aut sint?</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+                            <a href="#"
+                                class="text-white bg-blue-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Add
+                                to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <br>
+        <section class="container-fluid m-12">
+            <div class="grid grid-cols-2 gap-7">
+                <div class=" w-3/4">
+                    <a href="#" class="px-4 flex items-center bg-white border border-gray-200 rounded-lg shadow-lg">
+                        <img class="h-10 w-10" src="images/box.png" alt="">
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Find the
+                                Perfect Fit</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Everybody is different, which
+                                is why we
+                                offer styles for every body.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="row-span-3">
+                    <img src="images/shopping.png" alt="" srcset="">
+                </div>
+                <div class="w-3/4">
+                    <a href="#" class="px-4 flex items-center bg-white border border-gray-200 rounded-lg shadow-lg">
+                        <img class="h-10 w-10" src="images/house.png" alt="">
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
+                                technology acquisitions 2021</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
+                                technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="w-3/4">
+                    <a href="#" class="px-4 flex items-center bg-white border border-gray-200 rounded-lg shadow-lg">
+                        <img class="h-10 w-10" src="images/question.png" alt="">
+                        <div class="flex flex-col justify-between p-4 leading-normal">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
+                                technology acquisitions 2021</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise
+                                technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
